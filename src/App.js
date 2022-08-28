@@ -3,7 +3,11 @@ function App(){
   const listItems = numbers.map(number =>
     <li>{number * 2}</li>);
 
-  return <ul>{listItems}</ul>
+  return <div>
+    <p>Voici mon tableau: {numbers}</p>
+    <h2>voici le nouveau tableau</h2>
+    <ul>{listItems}</ul>
+    </div>
 }
 
 export default App; 
